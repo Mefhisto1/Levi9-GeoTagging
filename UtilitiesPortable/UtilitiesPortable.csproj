@@ -35,10 +35,10 @@
   </PropertyGroup>
   <ItemGroup>
     <!-- A reference to the entire .NET Framework is automatically included -->
-    <Content Include="DatabaseFiles\ClientSensorLocation.mdf">
+    <Content Include="Database\ClientSensorLocation.mdf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="DatabaseFiles\ClientSensorLocation_log.ldf">
+    <Content Include="Database\ClientSensorLocation_log.ldf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Libraries\Third Party\Ninject.dll" />
